@@ -21,5 +21,5 @@ package com.sqa.gs.helpers.exceptions;
  * @since       1.0
  *
  */
-public class RequestIntOverMaxException extends Exception {
+public class RequestNumberOverMaxException extends Exception {
 }

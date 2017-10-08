@@ -159,17 +159,17 @@ public class AppBasics {
 			try {
 				num = Integer.parseInt(input);
 				if (num > max) {
-					throw new RequestIntOverMaxException();
+					throw new RequestNumberOverMaxException();
 				} else if (num < min) {
-					throw new RequestIntUnderMinException();
+					throw new RequestNumberUnderMinException();
 				}
 				isValid = true;
 			} catch (NumberFormatException e) {
 				System.out.println("You did not supply a valid number [" + input + "]. please provide only digits.");
-			} catch (RequestIntOverMaxException e) {
+			} catch (RequestNumberOverMaxException e) {
 				System.out.println("You have exceeded the max value of " + max + " [" + input
 						+ "]. Please provide a number within range.");
-			} catch (RequestIntUnderMinException e) {
+			} catch (RequestNumberUnderMinException e) {
 				System.out.println("You have not reached the min value of " + min + " [" + input
 						+ "]. Please provide a number within range.");
 			}
@@ -187,15 +187,15 @@ public class AppBasics {
 			try {
 				num = Integer.parseInt(input);
 				if (num > max) {
-					throw new RequestIntOverMaxException();
+					throw new RequestNumberOverMaxException();
 				}
 				if (num < min) {
-					throw new RequestIntUnderMinException();
+					throw new RequestNumberUnderMinException();
 				}
 				isValid = true;
 			} catch (NumberFormatException e) {
 				System.out.println("You did not supply a valid number [" + input + "]. please provide only digits.");
-			} catch (RequestIntUnderMinException | RequestIntOverMaxException e) {
+			} catch (RequestNumberUnderMinException | RequestNumberOverMaxException e) {
 				System.out.println(errorMessage);
 			}
 		}

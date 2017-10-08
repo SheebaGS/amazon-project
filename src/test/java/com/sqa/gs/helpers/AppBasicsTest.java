@@ -5,7 +5,8 @@
  */
 package com.sqa.gs.helpers;
 
-import org.junit.*;
+import org.testng.*;
+import org.testng.annotations.*;
 
 /**
  * AppBasicsTest //ADDD (description of class)

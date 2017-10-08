@@ -21,5 +21,5 @@ package com.sqa.gs.helpers.exceptions;
  * @since       1.0
  *
  */
-public class RequestIntUnderMinException extends Exception {
+public class RequestNumberUnderMinException extends Exception {
 }

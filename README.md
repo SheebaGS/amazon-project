@@ -1,13 +1,17 @@
-# Basic Project
-## Core Concepts
+# Basic Automation Project
+## Automation Testing Concepts
 
-*Java application to cover core concepts.*
+*Automation to cover basic test functionalities and core concepts*
 
 **Java 8**
 
 * Maven
-* JUnit 4
+* Test NG
+* Log4J
+* Selenium WebDriver
+* Apache POI
+* MySQL
 
-Java Project for SQA Boot Camp Program. 
+Maven Project for automation Tests 
 
 [Sheeba-GS](https://github.com/SheebaGS)
