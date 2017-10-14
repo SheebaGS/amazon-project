@@ -1,7 +1,7 @@
-# Basic Automation Project
+# Basic Automation Project - Amazon
 ## Automation Testing Concepts
 
-*Automation to cover basic test functionalities and core concepts*
+*Automation test to test adding an item to the cart for a certain quantity and asserting expected cost*
 
 **Java 8**
 
@@ -12,6 +12,6 @@
 * Apache POI
 * MySQL
 
-Maven Project for automation Tests 
+Amazon Project for automation Tests 
 
 [Sheeba-GS](https://github.com/SheebaGS)
